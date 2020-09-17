@@ -1,0 +1,48 @@
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    height: 40px;
+    width: 200px;
+    text-indent: 5px;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    background-color: grey;
+    color: white;
+}
+
+button {
+    margin-top: 1em;
+    border: none;
+    height: 30px;
+    width: 90px;
+    background-color: #edae49;
+    color: #003d5b;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+button:focus {
+    outline: none;
+}
+
+h1 {
+    font-family: 'Helvetica';
+    font-weight: Bold;
+    color: #003d5b;
+    margin-top: 20px;
+    font-size: 4vw;
+}
+
+label {
+    color: #003d5b;
+}
+
+.submit {
+    width: 140px;
+}
